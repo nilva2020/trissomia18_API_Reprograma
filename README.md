@@ -2,17 +2,28 @@
 
 <img src="https://bestanimations.com/media/dna/119356307dna-rna-chromosomes-double-helix-rotating-animated-gif-6.gif#.Ytn1axr8B_U.link">
 
-API Tri-18 é orientada na promoção de saúde, e seu propósito é otimizar o acesso dos pacientes portadores da Trissomia 18 - Sindrome de Edwards aos profissionais especializados.
+**API Tri-18** é orientada para a promoção de saúde, e seu propósito é otimizar o acesso dos pacientes portadores da **Trissomia 18 - Sindrome de Edwards** aos profissionais especializados.
 ============================
-### Objetivo:
+#### Objetivo: 
 É desenvolver tecnologia para promover, somar e impactar no bem-estar físico, psicossocial, qualidade do tratamento e o prolongamento de vida destes pacientes.
 Proposta inicial desta API é cumprir um importante papel promovendo ao usuário lista de profissionais especializados em Trissomia 18 em nosso território nacional.
 =======================
+#### Complementação futura - Health Tech
+
+* Doadores sangue
+* Fisioterapeutas
+* Fonoaudiologos
+* Laboratórios
+* Fornecedores Alimentação parenteral e enteral
+* Doação de insumos
+* Carona voluntária
+#### Requisitos
+
 #### Arquitetura
 
 
 ====================
-#### Features
+#### Funcionalidades
 
 * Método GET
 * Usuário sem autorização
@@ -27,7 +38,11 @@ lista contato medico por especialidade
 * Usuário com autorização "Token"
 
  ============================
+### Instruções para instalação
 
+
+==============================
+### Link Heroku
 ### Tecnologias utilizadas:
 *Nodejs para rodar o Projeto;
 
@@ -55,15 +70,19 @@ lista contato medico por especialidade
 
 =======================================
 ### Créditos de Imagens e Gif
-fonte: créditos DNA "bestanimations.com/gifs"
+Créditos DNA "bestanimations.com/gifs"
 
 ==============================
 
 ### Referências Bibliograficas
+[Swagger](https://swagger.io/docs/)
+
+[Nodejs](https://nodejs.org/pt-br/docs/)
 
 ### Developer Back-End
-Nilva Pires - 2022
 
-### Monitoria
-* Mayhhara 
+[linkedin](www.linkedin.com/in/nilva-pires) -  Nilva Pires   2022
+
+### Orientação & Monitoria
+* Mayhhara Morais
 * Mônica 

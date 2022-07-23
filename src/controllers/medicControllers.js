@@ -4,7 +4,7 @@ const app = express();
 
 app.use(express.json());
 
-const getAll = (req, res) => {
+const getAllMedic = (req, res) => {
   response.status(200).json([
     {
       medic: medicJson,
@@ -12,6 +12,12 @@ const getAll = (req, res) => {
   ]);
 };
 
+const updateMedic = (req, res) => {
+  const idRequest = request.params.id
+  const novoMedic = request.body.atendimento
+}
+
 module.exports = {
-  getAll,
+  getAllMedic,
+  updateMedic
 };
