@@ -79,10 +79,11 @@ Créditos DNA "bestanimations.com/gifs"
 
 [Nodejs](https://nodejs.org/pt-br/docs/)
 
-### Developer Back-End
-
-[linkedin](www.linkedin.com/in/nilva-pires) -  Nilva Pires   2022
-
 ### Orientação & Monitoria
 * Mayhhara Morais
 * Mônica 
+
+
+### Developer Back-End
+
+[linkedin](www.linkedin.com/in/nilva-pires) -  Nilva Pires   2022

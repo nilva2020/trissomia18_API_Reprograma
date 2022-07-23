@@ -1,23 +1,23 @@
-const medicJson = require("../models/medicModels.js");
-const express = require("express");
-const app = express();
+const medicModels = require("../models/medicModels.js");
+const jwt = require("jsonwebtoken")
+const SECRET = process.env.SECRET
 
-app.use(express.json());
 
-const getAllMedic = (req, res) => {
-  response.status(200).json([
-    {
-      medic: medicJson,
-    },
-  ]);
-};
 
-const updateMedic = (req, res) => {
-  const idRequest = request.params.id
-  const novoMedic = request.body.atendimento
-}
+
+const getAllMedic = async (req, res) => {
+  try {
+    const findMedic = await medicModels.find({}, null, { sort: "date"})
+    res.status(200).json(findMedic)
+  } catch (error) {
+    console.error(error)
+    res.status(500).json({ message: error.message})
+  }
+} 
+
+
 
 module.exports = {
   getAllMedic,
-  updateMedic
-};
+  
+ }
