@@ -1,0 +1,6 @@
+mongodb+srv://piresnilva:<password>@cluster0.7rbouil.mongodb.net/?retryWrites=true&w=majority
+
+
+
+https://cloud.mongodb.com/v2/62a4d0234caca9639e36c27b#metrics/replicaSet/62a4d92174f394004b6084e3/explorer/trissomia
+este link e para acessar o banco de dados no mongo db da trissomia

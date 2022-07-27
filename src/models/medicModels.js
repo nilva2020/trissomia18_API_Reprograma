@@ -3,7 +3,7 @@ const mongoose = require("mongoose")
 const medicSchema = mongoose.Schema({
     _id: {
         type: mongoose.Schema.Types.ObjectId,
-        default: mongoose.Schema.Types.ObjectId
+        default: mongoose.Types.ObjectId
     },
 
     name: {
@@ -17,7 +17,7 @@ const medicSchema = mongoose.Schema({
         required: true
     },
 
-    attendance: {
+    attend_type: {
         type: String,
         required: true
     },
@@ -28,7 +28,7 @@ const medicSchema = mongoose.Schema({
     },
 
     surgery: {
-        type: String,
+        type: Boolean,
         required: true
     },
 
