@@ -1,5 +1,5 @@
-const myControl = require("../controllers/medicControllers")
 const express = require("express")
+const myControl = require("../controllers/medicControllers")
 
 const myrouter = express.Router()
 myrouter.post("/medic", myControl.createMedic)

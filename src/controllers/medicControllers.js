@@ -1,6 +1,5 @@
-const MedicModels = require("../models/medicModels.js");
-//const jwt = require("jsonwebtoken")
-//const SECRET = process.env.SECRET
+const MedicModels = require("../models/medicModels");
+
 
 const createMedic = async (req, res) => {
   try {
@@ -59,6 +58,7 @@ const findMedicById = async (req, res) => {
 const updateMedic = async (req, res) => {
   try {
     const { name, specialty, attend_type, healt_unit } = req.body;
+    
     const updateMedic = await MedicModels.findByIdAndUpdate(req.params.id, {
       name,
       specialty,

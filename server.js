@@ -1,4 +1,5 @@
-const app = require("./src/app.js");
+const app = require("./src/app");
 
-app.listen(8000, () => 
-  console.log(`Servidor iniciado na porta 8000`));
+const PORT = process.env.PORT;
+
+app.listen(PORT, () => console.log(`Porta iniciada em: ${PORT}`));

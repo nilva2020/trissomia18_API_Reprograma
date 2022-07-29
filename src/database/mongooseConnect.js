@@ -1,5 +1,4 @@
-const DATABASE_URI =
-  "mongodb+srv://piresnilva:sofmeL2012@cluster0.7rbouil.mongodb.net/trissomia";
+const DATABASE_URI = process.env.DATABASE_URI;
 
   const mongoose = require("mongoose")
   

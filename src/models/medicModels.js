@@ -32,7 +32,7 @@ const medicSchema = mongoose.Schema({
         required: true
     },
 
-    contact: {
+    contact:  {
         type: Number,
         required: true
     },
@@ -53,6 +53,6 @@ const medicSchema = mongoose.Schema({
     },
 }, {timestamps: true})
 
-const Model = mongoose.model('medic', medicSchema)
+const Model = mongoose.model('medics', medicSchema)
 
 module.exports = Model
