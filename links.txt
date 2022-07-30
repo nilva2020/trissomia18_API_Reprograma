@@ -1,0 +1,20 @@
+
+
+
+
+link canva apresentação
+https://www.canva.com/design/DAFH4-9kauA/sHUqGqkrwPPpFcVzeYGUSA/edit?utm_content=DAFH4-9kauA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+
+link do heroku
+https://trissomia18-api-reprograma.herokuapp.com/my_routes_documentation/#/
+
+https://trissomia18-api-reprograma.herokuapp.com/
+
+
+link Swagger
+http://localhost:8081/my_routes_documentation/
+
+
+link do Git Hub
+https://github.com/nilva2020/trissomia18_API_Reprograma

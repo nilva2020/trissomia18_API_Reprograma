@@ -64,10 +64,14 @@ ___
 
 * [Heroku - Deploy](https://trissomia18-api-reprograma.herokuapp.com/)
 
-* [Swagger - Clique aqui](http://localhost:8081/my_routes_documentation/#/)
+* [Swagger - Clique aqui](http://localhost:8081/my_routes_documentation/)
 
 ___
-##### Endpoints para o POSTMAN
+##### Endpoints para acesso local POSTMAN
+OBS: Para acessar atraves do Heroku insira o codigo
+`https://trissomia18-api-reprograma.herokuapp.com`+ `Endpoint`
+
+
 **Medico**
 
  Verbs    | EndPoint    |  Descrição                  | Status
