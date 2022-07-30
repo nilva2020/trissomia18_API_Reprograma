@@ -53,6 +53,10 @@ Use a **PORTA 8018**
 **http://localhost:8018/** + endpoints de requisição.
 
 ___
+##### Como acessar o Swagger localmente?
+
+http://localhost:8081/my_routes_documentation/#/
+___
 ##### Onde encontrar a documentação do Deploy?
  Click aqui 👇
 
@@ -64,9 +68,29 @@ ___
 
 ___
 ##### Endpoints para o POSTMAN
-**Medic**
+**Medico**
 
-<a href="https://ibb.co/XSMP7Lb"><img src="https://i.ibb.co/YpwScQ3/get-id.png" alt="get-id" border="0" width="250px" height="100px" ></a>
+ Verbs    | EndPoint    |  Descrição                  | Status
+ --------:|------------:|----------------------------:|--------:
+ Get      |/allmedic    | retorna todos os medicos    | 200
+ Get      |/medic/:id   | retorna medico por Id       | 200
+ Post     |/medic       | cadastra um novo medico     | 201
+ Patch    |/medic/:id   | edita parcialmente os dados | 200
+ Delete   |/medic/:id   | deleta medico por Id        | 200
+
+
+**Paciente**
+
+ Verbs    | EndPoint     |  Descrição                  | Status
+ --------:|-------------:|----------------------------:|--------:
+ Get      |/allpatient   | retorna todos os pacientes  | 200
+ Get      |/patient/:id  | retorna paciente por Id     | 200
+ Post     |/patient      | cadastra um novo paciente   | 201
+ Patch    |/patient/:id  | edita parcialmente os dados | 200
+ Delete   |/patient/:id  | deleta paciente por Id      | 200
+
+
+
 ##### Tecnologias utilizadas:
 <p>
   <a>
@@ -152,6 +176,7 @@ ___
 
 [{reprograma} - Projeto Final](https://github.com/reprograma/on7-porto-s17-s18-projeto-livre)
 
+[try & Catch](https://www.devmedia.com.br/blocos-try-catch/7339)
 ___
 
 ##### Orientadora  &  Monitora<a href="https://imgbb.com/"><img src="https://i.ibb.co/V9Q86PP/fada.png" alt="fada madrinha" border="0" width="50px" height="30px">
