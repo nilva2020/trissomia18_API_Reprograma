@@ -1,4 +1,4 @@
-# Trissomia_18_API_reprograma <a href="https://imgbb.com/"><img src="https://i.ibb.co/QrTK75n/faixa-de-dna.png" alt="faixa-de-dna" border="0" width="50px" height="50px">
+# Trissomia_18_API_reprograma<img src="https://i.ibb.co/XJq1MtR/logo.png" alt="logo" border-radius="10px" width="40px" height="40px"></a>
 
 ___
 
@@ -6,15 +6,15 @@ ___
 
 
 
- Esta API desenvolvida para o projeto final Todas Em Tech - Dev Back-End proposto pela [{reprograma}](https://reprograma.com.br/).
+ Esta API foi desenvolvida para o projeto final Todas em Tech - Dev Back-End proposto pela [{reprograma}](https://reprograma.com.br/).
 ___
 
  A proposta desta API é  para a promoção de saúde, e seu objetivo é otimizar o acesso dos pacientes aos profissionais especializados no tratamento da **Trissomia 18**, mais conhecida como a  **Sindrome de Edwards**.
 
 ##### Objetivo: 
-<p>É desenvolver tecnologia para promover, somar e impactar no bem-estar físico, psicossocial, qualidade do tratamento e o prolongamento de vida destes pacientes.
-Proposta inicial desta API é cumprir um importante papel promovendo ao usuário lista de profissionais especializados em Trissomia 18 em nosso território nacional.
-</p>
+É desenvolver tecnologia para promover, somar e impactar no bem-estar físico, psicossocial, qualidade do tratamento e o prolongamento de vida destes pacientes.
+Proposta inicial desta API é cumprir um importante papel promovendo ao usuário uma lista de profissionais especializados em **Trissomia 18** em nosso território nacional.
+
 
 ##### Complementação futura - Health Tech
 
@@ -39,7 +39,7 @@ ___
 * Deletar médico por Id ✔️
 
 
-##### Cadastro de Paciente <a href="https://imgbb.com/"><img src="https://i.ibb.co/q1xNstZ/paciente.png" alt="paciente" border="0" width="20px" height="20px"></a>
+##### Cadastro Paciente <a href="https://imgbb.com/"><img src="https://i.ibb.co/q1xNstZ/paciente.png" alt="paciente" border="0" width="20px" height="20px"></a>
 *  Cadastrar novo paciente ✔️
 *  Retornar todos os pacientes ✔️
 *  Retornar pacientes por Id ✔️
